@@ -30,9 +30,9 @@ export default function ProductCard({product}) {
           </Typography>
           <Typography variant="body1" color="text.secondary">
             <ol>
-              <li><span className='font-bold'>Condition</span>:{product.condition}</li>
-              <li><span className='font-bold'>Warranty</span>:{product.warranty}</li>
-              <li><span className='font-bold'>Acessories</span>:{product.accessories}</li>
+              <li><span className='font-bold'>Condition</span>:{product?.condition}</li>
+              <li><span className='font-bold'>Warranty</span>:{product?.warranty}</li>
+              <li><span className='font-bold'>Acessories</span>:{product?.accessories}</li>
             </ol>
           </Typography>
         </CardContent>
